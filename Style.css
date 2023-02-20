@@ -1,8 +1,9 @@
 
+
 body{
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(90deg,#151515,#000);
+    background-image: linear-gradient(90deg,#151515,#000);
     font-family: Rubik;
 	color: aliceblue;
 }
@@ -164,4 +165,52 @@ span{
     display: flex;
     padding: 10px;
     transition: all .5s;
+}
+
+.Projetos{
+	text-align: center;
+    
+}
+
+.P{
+	padding-top: 40%;
+}
+
+
+.breve__foto{
+	width: 100%;
+}
+
+.email{
+	text-align: center;
+}
+
+.Contato{
+	text-align: center;
+	padding-top: 10%;
+	
+	
+}
+
+.Contato__Icones{
+	
+	display: flex;
+	column-gap: 5%;
+	justify-content: center;
+
+	
+}
+
+.Icone{
+
+	width: 50px;
+    height: 50px
+}
+
+.copy{
+	color: #aaa;
+	font-size: small;
+	text-align: center;
+
+	padding-top: 50px;
 }
