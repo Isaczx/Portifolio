@@ -1,1 +1,12 @@
 
+.grid{
+    display: grid;
+   
+    
+    width: 100%;
+    
+    
+    place-content: center;
+    place-items: center;
+   
+}
