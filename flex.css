@@ -53,3 +53,42 @@
   text-align: center;
   
 }
+
+
+@media (min-width:1000px) {
+	body{
+		font-size: auto;
+	}
+
+  .navegacao{
+    font-size: 20px;
+  }
+
+	.Titulo{
+		text-align: start;
+	}
+
+	.Titulo__p{
+		font-size: 16px;
+	}
+
+  .Titulo__h1{
+    font-size: 40px;
+  }
+
+  .Titulo__h2{
+    font-size: 40px;
+  }
+
+  .p2{
+    width: 50%;
+    text-align: justify;
+  }
+
+  .ss{
+    padding: 0 150px 0 150px;
+    font-size: 18px;
+
+  }
+	
+}
