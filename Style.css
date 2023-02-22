@@ -1,11 +1,14 @@
 
-
 body{
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-image: linear-gradient(90deg,#151515,#000);
     font-family: Rubik;
 	color: aliceblue;
+}
+
+hr{
+	opacity: 3%;
 }
 
 header{
@@ -50,6 +53,7 @@ header{
 	width: 100%;
     height: 460px;
 	padding-top: 90px;
+	
 }
 
 .Titulo{
@@ -172,8 +176,10 @@ span{
     
 }
 
+
+
 .P{
-	padding-top: 40%;
+	padding-top: 70px;
 }
 
 
@@ -213,4 +219,23 @@ span{
 	text-align: center;
 
 	padding-top: 50px;
+}
+
+@media (min-width:750px) {
+	body{
+		font-size: auto;
+	}
+
+	.ab{
+		padding: 0 150px 0 150px;;
+	}
+	
+	#abilidades{
+		font-size: 18px;
+	}
+
+	.PR{
+		font-size: 18px;
+	
+	}
 }
