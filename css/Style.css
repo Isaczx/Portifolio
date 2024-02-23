@@ -16,10 +16,11 @@ header{
 	color: var(--cor-Font);
 	align-items: center;
 	height: 70px;
+	width: 100vw;
 }
 
 figure{
-	width: 15%;
+	width: 15vw;
 	height: 100%;
 	display: flex;
     align-items: center;
@@ -38,7 +39,7 @@ p{
 }
 
 nav{
-	width: 80%;
+	width: 70vw;
 	height: 100%;
 }
 
@@ -98,6 +99,19 @@ nav ul li a:hover::after {
 	
 	width: 100%;
 	margin-top: -15px;
+}
+
+.btn{
+	background-color: var(--cor-Font);
+	color: var(--cor-secundaria);
+	width: 10vw;
+	border: none;
+}
+
+.btn:hover{
+	background-color: var(--cor-secundaria);
+	color: var(--cor-Font);
+	border: none;
 }
 
 
