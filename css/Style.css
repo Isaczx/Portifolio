@@ -106,12 +106,19 @@ nav ul li a:hover::after {
 	color: var(--cor-secundaria);
 	width: 10vw;
 	border: none;
+	margin-left: 15px
 }
 
 .btn:hover{
 	background-color: var(--cor-secundaria);
 	color: var(--cor-Font);
 	border: none;
+	
+}
+
+.modal-content{
+	background-color: var(--cor-secundaria);
+	color: var(--cor-Nav);
 }
 
 
