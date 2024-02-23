@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/Style.css">
 </head>
 <body >
+	<div id="liveAlertPlaceholder"></div>
 	<header >
 		<figure>
 			<img src="image/Logotipo Profissional do isac.png" alt="Logo" id="logo"></li>
@@ -23,7 +24,7 @@
 				<li class="Projetos"><a class="Link" href="#Pr"> PROJETOS</a></li>
 			</ul>
 		</nav>
-
+		
 		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="isacjobz@gmail.com">CONTATO</button>
 		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
@@ -54,12 +55,13 @@
 					  <textarea class="form-control" id="message-text" name="message"></textarea>
 					</div>
 
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-						<button type="button" class="btn btn-primary">Enviar</button>
-					  </div>
+					
 
 					  <input type="hidden" name="redirectTo" value="https://isaczx.github.io/Portifolio/">
+					  <div class="modal-footer">
+						
+						<button type="submit" value="Submit" class="btn btn-primary" id="liveAlertBtn">Enviar</button>
+					  </div>
 				  </form>
 				</div>
 				
@@ -68,10 +70,16 @@
 		  </div>
 	</header>
 	<div id="barra-top"><hr></div>
+
+	<main>
+		
+		<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+	</main>
 	
-	
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<script src="/js/modal.js"></script>
+	<script src="js/alert.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	
 </body>
 </html>
 

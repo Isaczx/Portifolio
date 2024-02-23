@@ -15,6 +15,6 @@ if (exampleModal) {
     const modalBodyInput = exampleModal.querySelector('.modal-body input')
 
     modalTitle.textContent = `Envie um Email para ${recipient} :)`
-    modalBodyInput.value = 
+   
   })
 }
