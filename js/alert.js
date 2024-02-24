@@ -15,5 +15,6 @@ const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
   alertTrigger.addEventListener('submit', () => {
     appendAlert("Email enviado com Sucesso !", 'success')
+    
   })
 }
