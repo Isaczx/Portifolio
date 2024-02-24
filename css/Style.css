@@ -121,6 +121,14 @@ nav ul li a:hover::after {
 	color: var(--cor-Nav);
 }
 
+.form-select{
+	cursor: pointer;
+}
+
+#liveAlertBtn{
+	background-color: gray;
+	color: var(--cor-secundaria);
+}
 
 @keyframes pulse {
 	from {
