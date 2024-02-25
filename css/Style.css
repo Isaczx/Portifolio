@@ -138,3 +138,27 @@ nav ul li a:hover::after {
 	  transform: scale(1.1);
 	}
   }
+
+  @media only screen and (max-width: 1026px) {
+	figure{
+		width: 17vw;
+	}
+  }
+
+  @media screen and (max-width: 768px) {
+	header{
+		flex-direction: row-reverse;
+	}
+	
+	nav{
+		display: none;
+	}
+
+	#botaoNav{
+		display: none;
+	}
+
+	figure {
+		width: 50vw;
+	}
+  }
