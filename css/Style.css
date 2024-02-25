@@ -130,6 +130,10 @@ nav ul li a:hover::after {
 	color: var(--cor-secundaria);
 }
 
+#menu{
+	display: none;
+}
+
 @keyframes pulse {
 	from {
 	  transform: scale(1);
@@ -146,12 +150,24 @@ nav ul li a:hover::after {
   }
 
   @media screen and (max-width: 768px) {
-	header{
-		flex-direction: row-reverse;
-	}
 	
+
 	nav{
 		display: none;
+	}
+
+	#menu{
+		display: flex;
+		width: 10vw;
+	}
+
+	#menu:hover{
+		color: var(--cor-secundaria);
+	}
+
+	#icon{
+		width: 50px;
+    	height: 100%;
 	}
 
 	#botaoNav{
@@ -159,6 +175,7 @@ nav ul li a:hover::after {
 	}
 
 	figure {
-		width: 50vw;
+		width: 90vw;
+		justify-content: center;
 	}
   }
