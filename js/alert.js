@@ -17,7 +17,7 @@ const appendAlert = (message, type) => {
 
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
-  alertTrigger.addEventListener('reset', () => {
+  alertTrigger.addEventListener('click', () => {
     appendAlert("Email enviado com Sucesso !", 'success')
     
   })
@@ -35,9 +35,9 @@ submit.addEventListener("mouseout", function(){
 } )
 
 function validarInput(){
-  if(email.value.trim() === "" || mensagem.value.trim() === "" ){
+  if(email.value.trim() === "" || mensagem.value.trim() === ""  || !emailValido(email.value.trim())){
     submit.disabled = true;
-    console.log(email.value.trim())
+    console.log(email.value.trim() )
     submit.style.backgroundColor = 'gray';
   }else if(email.value.trim() != "" || mensagem.value.trim() != "" ){
     submit.disabled = false;
@@ -48,3 +48,8 @@ function validarInput(){
     
   }
     
+  function emailValido(email) {
+    // Esta é uma validação de e-mail simples
+    // Você pode implementar uma validação mais rigorosa se desejar
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
