@@ -194,8 +194,11 @@ nav ul li a:hover::after {
 	}
 
 	figure {
-		width: 90vw;
+		display: flex;
 		justify-content: center;
+		align-items: center;
+		width: 100vh;
+
 	}
   }
 
