@@ -17,6 +17,7 @@ header{
 	align-items: center;
 	height: 70px;
 	width: 100vw;
+	
 }
 
 figure{
@@ -132,6 +133,23 @@ nav ul li a:hover::after {
 
 #menu{
 	display: none;
+}
+
+#botaoMenu{
+	background-color: var(--cor-Font);
+	width: 50%
+    
+}
+
+#MenuMobile{
+	background-color: var(--cor-Nav);
+	display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+	height: 100%;
+	
 }
 
 @keyframes pulse {
