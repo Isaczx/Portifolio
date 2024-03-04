@@ -17,7 +17,13 @@ header{
 	align-items: center;
 	height: 70px;
 	width: 100vw;
+	z-index: 1;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 	
+}
+
+main{
+	z-index: 2;
 }
 
 figure{
@@ -102,6 +108,7 @@ nav ul li a:hover::after {
 	margin-top: -15px;
 }
 
+
 .btn{
 	background-color: var(--cor-Font);
 	color: var(--cor-secundaria);
@@ -151,6 +158,28 @@ nav ul li a:hover::after {
 	height: 100%;
 	margin:-1.2rem 0;
 	
+}
+
+#coluna1{
+	width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding-left: 2.5rem; 
+	color: var(--cor-Font);
+}
+
+#coluna1 h1{
+	font-size: 6rem;
+}
+
+#coluna1 p, h3{
+	font-size: 2rem;
+}
+
+#FullStack{
+	font-weight: bold;
 }
 
 @keyframes pulse {
