@@ -193,12 +193,20 @@ nav ul li a:hover::after {
 		display: none;
 	}
 
+	#botaoMenu{
+		margin-bottom: 10px;
+	}
+
 	figure {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 100vh;
 
+	}
+
+	ol, ul {
+		padding-left: 0rem;
 	}
   }
 
