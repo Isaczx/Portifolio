@@ -171,12 +171,14 @@ p {
   bottom: 0;
   justify-content: space-between;
   border-top: 1px solid var(--primary-border-color);
+  z-index: 1;
 }
 
 .menu--mobile .menu__link {
   flex-direction: column;
   justify-content: center;
   padding: 0.5rem 1rem;
+  
 }
 
 .menu__link.active .menu__icon, 
