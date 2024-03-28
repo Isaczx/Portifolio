@@ -336,7 +336,6 @@ main {
 .card__cover {
   width: 100%;
   border-radius: 0.5rem;
-  object-fit: cover;
   object-position: center;
 }
 
